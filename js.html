@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link ref="stylesheet" href="js.css">
+        <body>
+           
+            <input type="text" placeholder="Enter the num1" id="input1"/>
+             <input type="text" placeholder="Enter the num2" id="input2"/>
+              <button onclick="Add()">+</button>
+              <button>-</button>
+              <h1 id="result"></h1>      
+              <script>
+                function Add(){
+                    let a=document.getElementById("input1").value
+                     let b=document.getElementById("input2").value  
+                     let c=parseInt(a)+parseInt(b) 
+                     document.getElementById("result").textContent=c 
+                    
+                    
+                    }
+              </script>      
+
+        </body>
+                   
+    </head>
+</html>

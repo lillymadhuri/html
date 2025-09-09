@@ -1,0 +1,11 @@
+.signup-main{
+background-color: coral;}
+
+.signup-wrap{
+
+    display: inline grid;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+
+
